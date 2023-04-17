@@ -9,15 +9,12 @@
     "yarn": ">=1.9.0"
   },
   "scripts": {
-    "analyze": "ANALYZE=true next build",
     "dev": "yarn dev",
     "build": "next build",
     "start": "next start",
     "format": "prettier --write \"./**/*.{json,js,jsx,ts,tsx}\" --ignore-path .gitignore",
-    "postinstall": "yarn typechain && typesync",
     "lint": "next lint",
-    "tsc": "tsc",
-    "typechain": "typechain --target=ethers-v5 --out-dir ./v1/containers/Contracts ./v1/containers/ABIs/**/*.json"
+    "tsc": "tsc"
   },
   "dependencies": {
     "@clover-network/clover-connector": "^1.0.0",
