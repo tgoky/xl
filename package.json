@@ -10,7 +10,7 @@
   },
   "scripts": {
     "analyze": "ANALYZE=true next build",
-    "dev": "yarn typechain && next",
+    "dev": "yarn dev",
     "build": "next build",
     "start": "next start",
     "format": "prettier --write \"./**/*.{json,js,jsx,ts,tsx}\" --ignore-path .gitignore",
